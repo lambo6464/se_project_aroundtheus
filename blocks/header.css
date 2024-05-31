@@ -21,7 +21,7 @@
   }
 }
 
-@media only screen and (max-width: 920px) and (min-width: 481px) {
+@media only screen and (max-width: 750px) and (min-width: 481px) {
   .header__logo {
     margin-left: 5%;
   }

@@ -1,6 +1,7 @@
 .profile {
   padding-top: 40px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
 
@@ -75,7 +76,6 @@
   opacity: 0.6;
   cursor: pointer;
 }
-
 @media screen and (max-width: 900px) {
   .profile {
     flex-wrap: wrap;
@@ -128,7 +128,9 @@
 }
 
 @media screen and (max-width: 480px) {
-  .profile__image {
+  .profile {
+    display: flex;
+    align-items: center;
     margin-right: 0;
   }
 
