@@ -1,7 +1,6 @@
 .footer {
   text-align: left;
   color: #545454;
-  margin-top: 0;
 }
 
 .footer__copyright {
@@ -10,6 +9,7 @@
   font-weight: 400;
   line-height: normal;
   font-size: 18px;
+  margin: 0;
 }
 
 @media screen and (max-width: 900px) {

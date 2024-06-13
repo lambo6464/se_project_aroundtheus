@@ -51,6 +51,7 @@
   align-self: center;
   border: 0;
   background-size: cover;
+  cursor: pointer;
 }
 
 .card__like-button:hover {

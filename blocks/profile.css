@@ -1,5 +1,5 @@
 .profile {
-  padding-top: 45px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
 }
@@ -10,6 +10,7 @@
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  margin-right: 30px;
 }
 
 .profile__info {
@@ -69,6 +70,7 @@
   height: 50px;
   width: 150px;
   border: solid 2px white;
+  border-radius: 2px;
 }
 
 .profile__add-button:hover {
@@ -93,6 +95,7 @@
   .profile__image {
     margin-top: 13.6%;
     margin-bottom: 9.3%;
+    margin-right: 0;
   }
 
   .profile__description {
@@ -103,8 +106,6 @@
   }
 
   .profile__info {
-    grid-template-areas: "title button" "description description";
-    grid-template-columns: minmax(auto, 373px);
     width: 100%;
     align-items: center;
     justify-content: center;
