@@ -20,9 +20,9 @@ https://rsms.me/inter/
 
 Here are screen shoots on the semantic tags for Media:
 Tablet Mode 900px part 1:
-<img src="../images/tablet resolution 900 part 1.png" />
+![alt text](<images/tablet resolution 900 part 1.png>)
 Tablet Mode 900px part 2:
-<img scr="../images/tablet resolution 900 part 2.png" />
+![alt text](<images/tablet resolution 900 part 2.png>)
 Cell phone 480px:
 ![alt text](<images/tablet resolution 480.png>)
 ANd here is the link to the github site:
