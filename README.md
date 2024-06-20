@@ -36,9 +36,10 @@ ANd here is the link to the github site:
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
-Good luck and have fun!
+Webpage on github.com: git@github.com:lambo6464/aroundtheus.github.io.git
 
 Video:
 About the making of this webpage. Below is a link:
 https://youtu.be/tkfU6DZjY8c
+
 # aroundtheus.github.io
