@@ -14,12 +14,13 @@
 }
 
 .modal__container {
-  margin: 0;
+  width: 430px;
   position: relative;
   padding: 36px;
   background-color: #fff;
   margin: auto;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .modal__close {
@@ -92,11 +93,15 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 430px) {
+  .modal__container {
+    width: 282px;
+  }
+
   .modal__close {
     width: 20px;
     height: 20px;
-    bottom: 350px;
-    left: 250px;
+    bottom: calc(100% + 14px);
+    left: calc(100% - 18px);
   }
 }
