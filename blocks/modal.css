@@ -16,7 +16,8 @@
 .modal__container {
   width: 430px;
   position: relative;
-  padding-top: 25px 22px 25px 22px;
+  padding-top: 34px;
+  padding-bottom: 54px;
   padding: 22px;
   background-color: #fff;
   margin: auto;
@@ -81,11 +82,10 @@
   background: black;
   color: white;
   height: 50px;
-  margin-top: 48px;
+  margin-top: 48px 36px 36px 36px;
   border: none;
-  padding: 14px 0 14px 0;
   font-family: "Inter", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
@@ -97,6 +97,7 @@
 @media screen and (max-width: 430px) {
   .modal__container {
     width: 282px;
+    padding-top: 25px 22px 25px 22px;
   }
 
   .modal__close {
@@ -104,5 +105,10 @@
     height: 20px;
     bottom: calc(100% + 14px);
     left: calc(100% - 18px);
+  }
+
+  .modal__button {
+    padding: 14px 0 14px 0;
+    font-size: 14px;
   }
 }
