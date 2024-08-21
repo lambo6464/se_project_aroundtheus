@@ -15,10 +15,9 @@
 
 .modal__container {
   width: 430px;
+  max-width: calc(100% - 19px * 2);
   position: relative;
-  padding-top: 34px;
-  padding-bottom: 54px;
-  padding: 22px;
+  padding: 34px 36px 54px 36px;
   background-color: #fff;
   margin: auto;
   border-radius: 10px;
@@ -46,11 +45,11 @@
   line-height: 29px;
   color: #000;
   font-family: Inter, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 900;
   text-align: left;
-  margin: 0px 0px 75px;
+  margin: 0px 0px 54px;
 }
 
 .modal__form {
@@ -82,7 +81,7 @@
   background: black;
   color: white;
   height: 50px;
-  margin-top: 48px 36px 36px 36px;
+  margin-top: 48px;
   border: none;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 18px;
@@ -94,10 +93,13 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 320px) {
   .modal__container {
-    width: 282px;
-    padding-top: 25px 22px 25px 22px;
+    padding: 25px 22px 25px 22px;
+  }
+
+  .modal__heading {
+    font-size: 14px;
   }
 
   .modal__close {
