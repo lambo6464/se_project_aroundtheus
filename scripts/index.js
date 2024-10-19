@@ -75,7 +75,6 @@ function handleProfileFormSubmit(evt) {
   evt.preventDefault();
   profileTitle.textContent = nameInput.value;
   profileDescription.textContent = jobInput.value;
-  const editProfileModal = document.querySelector("#profile-edit-modal");
   closeModal(editProfileModal);
 }
 
@@ -83,6 +82,7 @@ function handleAddCardFormSubmit(evt) {
   evt.preventDefault();
   const name = cardTitleInput.value;
   const link = cardUrlInput.value;
+  addCardFormElement.reset();
   renderCard({ name, link }, cardsWrap);
   closeModal(addCardModal);
 }
@@ -100,10 +100,6 @@ function getCardElement(data) {
 
   likeButton.addEventListener("click", () => {
     likeButton.classList.toggle("card__like-button_active");
-  });
-
-  deleteButton.addEventListener("click", () => {
-    cardElement.remove(".card__image");
   });
 
   cardImage.addEventListener("click", () => {
