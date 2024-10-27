@@ -44,8 +44,8 @@ const profileTitle = document.querySelector(".profile__title");
 const profileDescription = document.querySelector(".profile__description");
 const addNewCardButton = document.querySelector(".profile__add-button");
 const previewModal = document.querySelector("#preview-modal");
-const previewModalImage = previewModal.querySelector(".modal__preview_image");
-const previewModalTitle = previewModal.querySelector(".modal__text_content");
+const previewModalImage = previewModal.querySelector(".modal__preview-image");
+const previewModalTitle = previewModal.querySelector(".modal__text-content");
 const previewModalCloseButton = previewModal.querySelector(".modal__close");
 
 //form Data

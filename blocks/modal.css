@@ -132,12 +132,12 @@
   display: flex;
 }
 
-.modal__preview_image {
+.modal__preview-image {
   max-height: 75vh;
   max-width: 75vw;
 }
 
-.modal__text_content {
+.modal__text-content {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 12px;
   font-style: normal;
@@ -145,20 +145,12 @@
 }
 
 @media screen and (max-width: 320px) {
-  .modal__input_type_title {
-    font-size: 18px;
-  }
-
-  .modal__text-content {
-    font-size: 18px;
-  }
-
   .modal__container {
     padding: 25px 22px 25px 22px;
   }
 
   .modal__heading {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .modal__close {
