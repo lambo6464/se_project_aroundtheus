@@ -145,6 +145,14 @@
 }
 
 @media screen and (max-width: 320px) {
+  .modal__input_type_title {
+    font-size: 18px;
+  }
+
+  .modal__text-content {
+    font-size: 18px;
+  }
+
   .modal__container {
     padding: 25px 22px 25px 22px;
   }
