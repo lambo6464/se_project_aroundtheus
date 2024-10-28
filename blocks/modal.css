@@ -6,15 +6,16 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
-  display: none;
+  display: flex;
   opacity: 0;
   visibility: hidden;
-  transition: visibility 0.3s linear 0, opacity 0.5s linear 0;
+  transition: visibility 0s 0.5s, opacity 0.5s ease-in-out;
 }
 
 .modal_is-opened {
   opacity: 1;
   visibility: visible;
+  transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
 .modal_input {
@@ -150,6 +151,10 @@
   }
 
   .modal__heading {
+    font-size: 18px;
+  }
+
+  .modal__input_type_title {
     font-size: 18px;
   }
 
